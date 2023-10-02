@@ -1,0 +1,152 @@
+/* Add your 80's style CSS here */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #00A86B;
+    color: #fff;
+    line-height: 1.6;
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    background-color: #FF5700;
+    padding: 20px;
+}
+
+/* Style for the form container */
+#order-form {
+    border: 2px solid #000;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Style for the input fields */
+.input-container input,
+.input-container select {
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: calc(100% - 20px);
+}
+
+/* Style for the note section */
+.note {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+/* Style for the total cost section */
+.total {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: right;
+    background-color: #FF5700;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Style for the list of selected pizzas */
+#selected-pizzas {
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: #333;
+}
+
+/* Style for each pizza item in the list */
+#selected-pizzas li {
+    margin-bottom: 5px;
+    list-style: none;
+}
+
+/* Style for the quantity input box */
+#quantity {
+    padding: 10px;
+    font-size: 20px;
+    background-color: #FF5700;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Style for the buttons */
+.buttons button {
+    background-color: #FF5700;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+/* Style for the "Submit Order" and "Cancel" buttons */
+#submit, #cancel {
+    background-color: #FF5700;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+#add-pizza,
+#remove-pizza {
+    background-color: #FF5700;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+/* Style for the buttons */
+.buttons button {
+    background-color: #FF5700;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px; /* Add margin to the right */
+    margin-bottom: 10px; /* Add margin to the bottom */
+	margin-top: 10px;
+}
+
+/* Style for the "Submit Order" and "Cancel" buttons */
+#submit, #cancel {
+    background-color: #FF5700;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px; /* Add margin to the right */
+    margin-bottom: 10px; /* Add margin to the bottom */
+    margin-top: 10px; /* Add margin to the top */
+}
+/* Style for the gitretro button */
+.gitretro-button {
+    width: 250px; /* Adjust the width as needed - makes the button bigger */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 10px; /* Adjust the spacing between the text and button */
+    vertical-align: middle; /* Align the button vertically with text */
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Add a shadow effect */
+}

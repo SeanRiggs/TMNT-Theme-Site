@@ -1,0 +1,282 @@
+/* Reset some default styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Page Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #00A86B;
+    color: #fff;
+    line-height: 1.6;
+    text-align: center;
+}
+
+header {
+    background-color: #FF5700;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: #FF5700;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+section {
+    padding: 40px 0;
+}
+
+section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #FF5700;
+    padding: 10px 0;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.menu-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.menu-item h3 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.menu-item p {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+}
+.video-container {
+    position: relative;
+    width: 100%;
+    max-width: 500px; /* Set the maximum width for responsiveness */
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.video-container video {
+    width: 100%;
+    height: auto;
+}
+
+.video-container img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0; /* Hide the image when the video is visible */
+    transition: opacity 0.3s ease;
+}
+
+/* Show the image if the video is not supported */
+.video-container video + img {
+    opacity: 1;
+}
+
+/* Header Styles */
+header {
+    background-color: #FF5700;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Logo Styles */
+.logo {
+    max-width: 300px; /* Adjust the width as needed */
+    height: auto;
+    display: block;
+    margin: 0 auto 20px; /* Adds some space below the logo */
+}
+
+/* Heading Styles */
+h1 {
+    font-size: 36px;
+    color: #fff;
+    margin-bottom: 10px; /* Adds some space below the heading */
+}
+
+/* Slogan Styles */
+.slogan {
+    font-size: 18px;
+    color: #fff;
+}
+
+/* CSS for the header content */
+.header-content {
+    position: relative;
+}
+
+/* CSS for the Rapheal spinning pizza GIF */
+.gif {
+    width: 190px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    position: absolute;
+    right: auto; /* Center horizontally */
+    left: 50%; /* Move it 50% from the left edge of the container */
+    transform: translateX(-50%); /* Center horizontally */
+    top: calc(33% + 10px); /* Position it just below the header content */
+}
+
+/* Scroll to Top Button Styles */
+#scroll-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #FF5700;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+}
+
+#scroll-to-top:hover {
+    background-color: #FF7F00; /* Change color on hover if desired */
+}
+.description-box {
+    max-width: 600px;
+    margin: 0 auto; /* Center-align the box within its container */
+}
+/* Menu Button Styles */
+nav ul {
+    list-style-type: none;
+    background-color: #FF5700;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px; /* Increase the font size for a bold look */
+    padding: 10px 20px; /* Increase padding to make buttons bigger */
+    border-radius: 20px; /* Add rounded corners for an 80's feel */
+    background-color: #00A86B; /* Use a contrasting color for the background */
+    transition: background-color 0.3s ease; /* Add a smooth hover effect */
+}
+
+nav a:hover {
+    background-color: #FF5700; /* Change background color on hover */
+    color: #fff; /* Change text color on hover */
+}
+
+/* Add a subtle drop shadow for depth */
+nav a::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 6px; /* Adjust the shadow's position */
+    left: 6px; /* Adjust the shadow's position */
+    background-color: rgba(0, 0, 0, 0.3); /* Shadow color */
+    border-radius: 20px; /* Match button's border-radius */
+    z-index: -1;
+    transition: transform 0.3s ease;
+}
+
+nav a:hover::before {
+    transform: scale(1.05); /* Enlarge the shadow on hover */
+}
+/* Style for the "Time Travel with Turtles" button */
+.game-button {
+    background-color: #ffcc00; /* Yellow background color */
+    color: #000; /* Black text color */
+    padding: 10px 20px; /* Padding around the text */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Bold text */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+/* Hover effect for the button */
+.game-button:hover {
+    background-color: #ff9900; /* Darker yellow background color on hover */
+}
+/* Add your 80's style CSS here */
+
+/* ... (Your existing styles) ... */
+
+/* Style for the glowing button */
+.glowing-button {
+    background-color: #00a86b;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    animation: glow 2s infinite alternate; /* Use the "glow" animation */
+}
+
+/* Define the glow animation */
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 5px 2px #00a86b;
+    }
+    100% {
+        box-shadow: 0 0 20px 5px #00a86b, 0 0 30px 10px #ff0099, 0 0 40px 15px #00ffcc;
+    }
+}
+/* Style for the price text */
+.price {
+    font-size: 24px; /* Adjust the font size as needed */
+    color: #FF5700; /* Use a color that stands out, you can change it */
+    font-weight: bold; /* Make it bold for emphasis */
+}
+
+/* Style for the gitretro button */
+.gitretro-button {
+    width: 250px; /* Adjust the width as needed - makes the button bigger */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 10px; /* Adjust the spacing between the text and button */
+    vertical-align: middle; /* Align the button vertically with text */
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Add a shadow effect */
+}
