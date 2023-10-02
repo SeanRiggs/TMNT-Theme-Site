@@ -7,7 +7,7 @@ Welcome to the Ninja Turtles Pizza GitHub repository, where we're on a culinary 
 </div>
 
 ## About This Project
-
+<div align="center"><strong>Optimized for desktop users only at this time (maybe help make it mobile friendly?)</strong> </div></br></br>
 Ninja Turtles Pizza isn't just about delicious pizza; it's a journey of web development, design, and pizza craftsmanship. This repository houses the complete source code for our pizza-themed website.
 
 🍽️ **Explore the Menu**: Dive into our mouthwatering menu, complete with tantalizing descriptions of each pizza masterpiece. Learn how to display delicious dishes with style and finesse.
