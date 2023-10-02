@@ -38,5 +38,5 @@ Remember, it's not just a TV show; it's an experience, and we're thrilled to sha
 Made with love, pizza, and a dash of nostalgia! ❤️🍕
 
 <div align="center"> 
-    <img src="images/logo.jpg" alt="Ninja Turtles Logo" width="200">
+    <img src="https://github.com/SeanRiggs/TMNT-Theme-Site/blob/main/TMNT/images/tmnticon.png" alt="Ninja Turtles Logo" width="200">
 </div>
