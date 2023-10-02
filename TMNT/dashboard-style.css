@@ -1,0 +1,48 @@
+/* Add your 80's style CSS for the dashboard here */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #00A86B;
+    color: #fff;
+    line-height: 1.6;
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    background-color: #FF5700;
+    padding: 20px;
+}
+
+/* Style for dashboard content */
+.dashboard {
+    padding: 20px;
+}
+
+/* Style for the logo */
+.logo {
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+
+/* Style for the heading */
+.heading {
+    font-size: 36px;
+    margin: 20px 0;
+}
+
+/* Style for the "Back to Home" button */
+.back-button {
+    background-color: #FF5700;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+/* Add more custom styling here... */

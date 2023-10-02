@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ninja Turtles Pizza - Commercial</title>
+    <link rel="icon" href="images/tmnticon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="commercial.css"> <!-- Include the new CSS file -->
+</head>
+<body>
+
+    <!-- Navigation Section -->
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li> <!-- Updated link to go to index.html -->
+			<li><a href="index.html#menu">Menu</a></li> <!-- Link to index.html with the #menu anchor -->
+			<li><a href="index.html#about">About Us</a></li> <!-- Link to index.html with the #about anchor -->
+			<li><a href="index.html#contact">Contact</a></li> <!-- Link to index.html with the #contact anchor -->
+			<li><a href="login.html">Login</a></li>
+			<li><a href="order.html" class="glowing-button">Order Now</a></li>
+			<li><a href="index.html#videogame" class="game-button">Time Travel with Turtles</a></li> <!-- Link to index.html with the #videogame anchor -->
+			<li><a href="faq.html">FAQ</a></li>
+			<li><a href="commercial.html">Watch Our Commercial</a></li>
+		</ul>
+	</nav>
+
+    <!-- Commercial Section -->
+    <section id="commercial">
+        <h2>Watch Our Ninja Turtles Pizza Commercial</h2>
+        <div class="video-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/otsZOdvICdE?si=JLj5fqDrc3ray-x7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  
+        </div>
+        <div class="description-box">
+            </br>
+			<p>Prepare to embark on a delicious journey with Ninja Turtles Pizza! Our mouthwatering pizzas aren't just food; they're an experience that will tantalize your taste buds.</p>
+            </br>
+			<p>Watch our action-packed commercial and get ready to dive into a world of gourmet flavors, where every slice is a work of art. Join the Turtles in their quest for the perfect pizza, and discover why we're known for serving the best pizza in town.</p>
+            </br>
+			<p>Get a sneak peek of our culinary craftsmanship, and let the Ninja Turtles themselves guide you on this epic pizza adventure. Whether you're a fan of classic pies or daring flavor combinations, we've got something for every pizza lover.</p>
+            </br>
+			<p>Don't resist the temptation! Click play and let the Ninja Turtles show you why Cowabunga is the only way to describe our pizzas. Order now to experience the magic for yourself!</p>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2023 Ninja Turtles Pizza</p>
+    </footer>
+
+    <button id="scroll-to-top" title="Scroll to Top">Top</button>
+
+    <script>
+        // JavaScript for scrolling to the top
+        var scrollToTopBtn = document.getElementById("scroll-to-top");
+
+        window.onscroll = function() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                scrollToTopBtn.style.display = "block";
+            } else {
+                scrollToTopBtn.style.display = "none";
+            }
+        };
+
+        scrollToTopBtn.onclick = function() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        };
+    </script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+/* Reset some default styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Page Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #00A86B;
+    color: #fff;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* Header Styles */
+header {
+    background-color: #FF5700;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+/* Logo Styles */
+.logo {
+    max-width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+/* Heading Styles */
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style-type: none;
+    background-color: #FF5700;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Section Styles */
+section {
+    padding: 40px 0;
+}
+
+/* Video Container Styles */
+.video-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    width: 100%;
+    height: 100%;
+}
+
+/* Description Box Styles */
+.description-box {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #FF5700;
+    padding: 10px 0;
+}
+
+/* Scroll to Top Button Styles */
+#scroll-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #FF5700;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+}
+
+#scroll-to-top:hover {
+    background-color: #FF7F00;
+}
